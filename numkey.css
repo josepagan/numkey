@@ -1,0 +1,40 @@
+.screen {
+  width: 300px;
+  height: 50px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+
+
+  font-family: Arial;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+
+}
+
+
+.keypadGrid {
+
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  grid-template-rows: repeat(4,100px);
+  grid-gap: 20px
+}
+.key {
+  font-family: Arial;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+
+  color: black;
+  background-color: silver;
+  border-style: solid;
+  border-width: thick;
+  border-color: gray;
+  border-radius: 20px
+}
